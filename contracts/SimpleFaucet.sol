@@ -37,7 +37,7 @@ contract SimpleFaucet is Ownable{
         
     }
     
-    function transfer(ERC20 _erc20, address _to, uint _amount) public{
+    function transfer(ERC20 _erc20, address _to, uint _amount) public onlyOwner{
         require(_erc20.balanceOf(address(this)) >= _amount, "balance is not enough");
         
         _erc20.transfer(_to, _amount);
