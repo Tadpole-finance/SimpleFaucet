@@ -7,7 +7,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 contract SimpleFaucet is Ownable{
     
     ERC20 constant public TEN = ERC20(0x56C0369E002852C2570ca0CC3442E26df98E01A2);
-    ERC20 constant public IDK = ERC20(0xf32789C480Cd5944AE1539c83e33380439b14bb3);
+    ERC20 constant public IDK = ERC20(0x5f667013eB4DA53Be560701cd3D7757eCEd85C40);
     ERC20 constant public USDT = ERC20(0x1Ad746307FC56B1eB8627FA2C088Ae320CF13224);
     ERC20 constant public WBTC = ERC20(0xdA4a47eDf8ab3c5EeeB537A97c5B66eA42F49CdA);
     ERC20 constant public WETH = ERC20(0x7624cbE2f83c47Fd6DE8804cD76501845062803F);
